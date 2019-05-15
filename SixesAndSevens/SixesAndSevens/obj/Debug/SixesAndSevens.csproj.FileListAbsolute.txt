@@ -1,0 +1,20 @@
+C:\Users\Alex\OneDrive - The University Of Newcastle\2019 - Semester 1\INFT2012\Assignment1\SixesAndSevens\SixesAndSevens\bin\Debug\SixesAndSevens.exe.config
+C:\Users\Alex\OneDrive - The University Of Newcastle\2019 - Semester 1\INFT2012\Assignment1\SixesAndSevens\SixesAndSevens\bin\Debug\SixesAndSevens.exe
+C:\Users\Alex\OneDrive - The University Of Newcastle\2019 - Semester 1\INFT2012\Assignment1\SixesAndSevens\SixesAndSevens\bin\Debug\SixesAndSevens.pdb
+C:\Users\Alex\OneDrive - The University Of Newcastle\2019 - Semester 1\INFT2012\Assignment1\SixesAndSevens\SixesAndSevens\obj\Debug\SixesAndSevens.csprojAssemblyReference.cache
+C:\Users\Alex\OneDrive - The University Of Newcastle\2019 - Semester 1\INFT2012\Assignment1\SixesAndSevens\SixesAndSevens\obj\Debug\SixesAndSevens.SixesAndSevens.resources
+C:\Users\Alex\OneDrive - The University Of Newcastle\2019 - Semester 1\INFT2012\Assignment1\SixesAndSevens\SixesAndSevens\obj\Debug\SixesAndSevens.Properties.Resources.resources
+C:\Users\Alex\OneDrive - The University Of Newcastle\2019 - Semester 1\INFT2012\Assignment1\SixesAndSevens\SixesAndSevens\obj\Debug\SixesAndSevens.csproj.GenerateResource.cache
+C:\Users\Alex\OneDrive - The University Of Newcastle\2019 - Semester 1\INFT2012\Assignment1\SixesAndSevens\SixesAndSevens\obj\Debug\SixesAndSevens.csproj.CoreCompileInputs.cache
+C:\Users\Alex\OneDrive - The University Of Newcastle\2019 - Semester 1\INFT2012\Assignment1\SixesAndSevens\SixesAndSevens\obj\Debug\SixesAndSevens.exe
+C:\Users\Alex\OneDrive - The University Of Newcastle\2019 - Semester 1\INFT2012\Assignment1\SixesAndSevens\SixesAndSevens\obj\Debug\SixesAndSevens.pdb
+C:\Users\dunc\Desktop\Studies\Inft2012\SixesAndSevens-Game-Project-master\SixesAndSevens-Game-Project-master\Assignment1\SixesAndSevens\SixesAndSevens\bin\Debug\SixesAndSevens.exe.config
+C:\Users\dunc\Desktop\Studies\Inft2012\SixesAndSevens-Game-Project-master\SixesAndSevens-Game-Project-master\Assignment1\SixesAndSevens\SixesAndSevens\bin\Debug\SixesAndSevens.exe
+C:\Users\dunc\Desktop\Studies\Inft2012\SixesAndSevens-Game-Project-master\SixesAndSevens-Game-Project-master\Assignment1\SixesAndSevens\SixesAndSevens\bin\Debug\SixesAndSevens.pdb
+C:\Users\dunc\Desktop\Studies\Inft2012\SixesAndSevens-Game-Project-master\SixesAndSevens-Game-Project-master\Assignment1\SixesAndSevens\SixesAndSevens\obj\Debug\SixesAndSevens.csprojAssemblyReference.cache
+C:\Users\dunc\Desktop\Studies\Inft2012\SixesAndSevens-Game-Project-master\SixesAndSevens-Game-Project-master\Assignment1\SixesAndSevens\SixesAndSevens\obj\Debug\SixesAndSevens.SixesAndSevens.resources
+C:\Users\dunc\Desktop\Studies\Inft2012\SixesAndSevens-Game-Project-master\SixesAndSevens-Game-Project-master\Assignment1\SixesAndSevens\SixesAndSevens\obj\Debug\SixesAndSevens.Properties.Resources.resources
+C:\Users\dunc\Desktop\Studies\Inft2012\SixesAndSevens-Game-Project-master\SixesAndSevens-Game-Project-master\Assignment1\SixesAndSevens\SixesAndSevens\obj\Debug\SixesAndSevens.csproj.GenerateResource.cache
+C:\Users\dunc\Desktop\Studies\Inft2012\SixesAndSevens-Game-Project-master\SixesAndSevens-Game-Project-master\Assignment1\SixesAndSevens\SixesAndSevens\obj\Debug\SixesAndSevens.csproj.CoreCompileInputs.cache
+C:\Users\dunc\Desktop\Studies\Inft2012\SixesAndSevens-Game-Project-master\SixesAndSevens-Game-Project-master\Assignment1\SixesAndSevens\SixesAndSevens\obj\Debug\SixesAndSevens.exe
+C:\Users\dunc\Desktop\Studies\Inft2012\SixesAndSevens-Game-Project-master\SixesAndSevens-Game-Project-master\Assignment1\SixesAndSevens\SixesAndSevens\obj\Debug\SixesAndSevens.pdb
