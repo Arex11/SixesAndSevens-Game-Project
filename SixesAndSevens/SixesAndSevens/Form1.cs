@@ -39,6 +39,8 @@ namespace SixesAndSevens
             InitializeComponent();
             btnRollDice.Visible = false;
             btnPassTurn.Visible = false;
+            lstBxPlayer1.Visible = false;
+            lstBxPlayer2.Visible = false;
         }
         #endregion
 
@@ -175,19 +177,16 @@ namespace SixesAndSevens
                     if (p1Turn == true)
                     {
                         p1Cumulative = 0;
-                        txtBxPlayer1.Text = Convert.ToString(p1Cumulative);
+                        lstBxPlayer1.Text = Convert.ToString(p1Cumulative);
                     }
                     else if (p2Turn == true)
                     {
                         p2Cumulative = 0;
-                        txtBxPlayer2.Text = Convert.ToString(p2Cumulative);
+                        lstBxPlayer2.Text = Convert.ToString(p2Cumulative);
                     }
                     //Displays a message box stating that the scores have been lost and to pass the turn
                     MessageBox.Show("You lose your Running Score and your Cumulative Score, Pass the turn!", "Sorry, you got a Silly Seven!");
                 }
-                //This will set the Running Score to 0 and pass the turn to player2.
-                iRunningScore = 0;
-                lblRunningScore.Text = Convert.ToString(iRunningScore);
 
                 if (p1Turn == true)
                 {
@@ -206,6 +205,10 @@ namespace SixesAndSevens
                     lblPlayer2.BackColor = SystemColors.Control;
 
                 }
+
+                //This will set the Running Score to 0 and pass the turn to player2.
+                iRunningScore = 0;
+                lblRunningScore.Text = Convert.ToString(iRunningScore);
             }
 
             //Checking if Die 1 has rolled a 6 or a 1 and setting the Cumulative Score to 0
@@ -216,21 +219,17 @@ namespace SixesAndSevens
                     if (p1Turn == true)
                     {
                         p1Cumulative = 0;
-                        txtBxPlayer1.Text = Convert.ToString(p1Cumulative);
+                        lstBxPlayer1.Text = Convert.ToString(p1Cumulative);
                     }
                     else if (p2Turn == true)
                     {
                         p2Cumulative = 0;
-                        txtBxPlayer2.Text = Convert.ToString(p2Cumulative);
+                        lstBxPlayer2.Text = Convert.ToString(p2Cumulative);
                     }
                     //Displays a message box stating that the scores have been lost and to pass the turn
                     MessageBox.Show("You lose your Running Score and your Cumulative Score, Pass the turn!", "Sorry, you got a Silly Seven!");
                     
                 }
-
-                //This will set the Running Score to 0 and pass the turn to player1.
-                iRunningScore = 0;
-                lblRunningScore.Text = Convert.ToString(iRunningScore);
 
                 if (p1Turn == true)
                 {
@@ -248,7 +247,10 @@ namespace SixesAndSevens
                     lblPlayer1.BackColor = Color.Red;
                     lblPlayer2.BackColor = SystemColors.Control;
                 }
-                
+
+                //This will set the Running Score to 0 and pass the turn to player1.
+                iRunningScore = 0;
+                lblRunningScore.Text = Convert.ToString(iRunningScore);
             }
             else
             {
@@ -256,18 +258,20 @@ namespace SixesAndSevens
                 iRunningScore = iRunningScore + iDieResult;
                 lblRunningScore.Text = Convert.ToString(iRunningScore);
 
-                //IF Statement checking what player'sturn it is and adding their current Die Result to their Cumulative Score
+                //IF Statement checking what player's turn it is and adding their current Die Result to their Cumulative Score
                 if (p1Turn == true)
                 {
                     p1Cumulative = p1Cumulative + iDieResult;
-                    txtBxPlayer1.Text = Convert.ToString(p1Cumulative);
-                    
+                    //txtBxPlayer1.Text = Convert.ToString(p1Cumulative);
+                    lstBxPlayer1.Items.Add(p1Cumulative);
+
                 }
                 else if (p2Turn == true)
                 {
                     p2Cumulative = p2Cumulative + iDieResult;
-                    txtBxPlayer2.Text = Convert.ToString(p2Cumulative);
-                    
+                    //txtBxPlayer2.Text = Convert.ToString(p2Cumulative);
+                    lstBxPlayer2.Items.Add(p2Cumulative);
+
                 }
 
 
@@ -288,10 +292,15 @@ namespace SixesAndSevens
                         p1Cumulative = 0;
                         p2Cumulative = 0;
                         iRunningScore = 0;
-                        txtBxPlayer1.Text = Convert.ToString(p1Cumulative);
-                        txtBxPlayer2.Text = Convert.ToString(p2Cumulative);
+                        lstBxPlayer1.Text = Convert.ToString(p1Cumulative);
+                        lstBxPlayer2.Text = Convert.ToString(p2Cumulative);
+
+                        //A For Loop to add 1 round each time the player wins
                         p1RoundsWon = p1RoundsWon + 1;
-                        lblP1Rounds.Text = Convert.ToString(p1RoundsWon);
+                        for (int i = 1; i <= p1RoundsWon; i++)
+                        {
+                            lblP1Rounds.Text = Convert.ToString(p1RoundsWon);
+                        }
                     }
                     else
                     //The game will close if No is selected
@@ -316,10 +325,15 @@ namespace SixesAndSevens
                         p1Cumulative = 0;
                         p2Cumulative = 0;
                         iRunningScore = 0;
-                        txtBxPlayer1.Text = Convert.ToString(p1Cumulative);
-                        txtBxPlayer2.Text = Convert.ToString(p2Cumulative);
+                        lstBxPlayer1.Text = Convert.ToString(p1Cumulative);
+                        lstBxPlayer2.Text = Convert.ToString(p2Cumulative);
+
+                        //A For Loop to add 1 round each time the player wins
                         p2RoundsWon = p2RoundsWon + 1;
-                        lblP2Rounds.Text = Convert.ToString(p1RoundsWon);
+                        for (int i = 1; i <= p2RoundsWon; i++)
+                        {
+                            lblP2Rounds.Text = Convert.ToString(p2RoundsWon);
+                        }
                     }
                     else
                     //The game will close if No is selected
@@ -383,8 +397,8 @@ namespace SixesAndSevens
             lblDie2.Visible = true;
             lblRunningScoreHead.Visible = true;
             lblRunningScore.Visible = true;
-            txtBxPlayer1.Visible = true;
-            txtBxPlayer2.Visible = true;
+            lstBxPlayer1.Visible = true;
+            lstBxPlayer2.Visible = true;
             txtBxDie1.Visible = true;
             txtBxDie2.Visible = true;
             lblRunningScore.Visible = true;
